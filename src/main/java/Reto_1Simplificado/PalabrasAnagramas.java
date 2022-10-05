@@ -1,15 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Reto_1Simplificado;
 
 import java.util.Arrays;
-
 /**
  *
- * @author Usuario
+ * @author Bryan Delgado - bryanadriands@ufps.edu.co
  */
+
+/* Reto 1
+ *Escribe una función que reciba dos palabras (String) y retorne
+ * verdadero o falso (Bool) según sean o no anagramas.
+ * - Un Anagrama consiste en formar una palabra reordenando TODAS
+ *   las letras de otra palabra inicial.
+ * - NO hace falta comprobar que ambas palabras existan.
+ * - Dos palabras exactamente iguales no son anagrama.
+ */
+
 public class PalabrasAnagramas {
  
     public void sonAnagramas(String p1,String p2){
